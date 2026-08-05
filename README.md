@@ -18,7 +18,7 @@ Now stop scrolling, start coding, and enjoy the journey! 🚀 Read through the c
 
  Topics                                                     
  [Introduction](./readme.md)  
- [Install Python](./install_python.md)
+ [Install Python](./install_python.md)\
  [Variables, Built-in Functions](./variables_builtin_functions.md)\
   [Operators](./operators.md)\
   [Strings](./strings.md)\
