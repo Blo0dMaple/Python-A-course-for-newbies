@@ -1,4 +1,6 @@
-Think of comments as little notes you leave in your code for your future self (because trust me, you'll forget 😭) or for anyone else reading it. They help explain what's going on without affecting the program. In Python, anything written after a **`#`** is a comment, which means Python just skips it while running the code. So go ahead—drop reminders, explain tricky parts, or even roast your own code... Python won't judge. 😎
+Think of comments as little notes you leave in your code for your future self (because trust me, you'll forget 😭) or for anyone else reading it. They help explain what's going on without affecting the program. 
+
+In Python, anything written after a **`#`** is a comment, which means Python just skips it while running the code. So go ahead—drop reminders, explain tricky parts, or even roast your own code... Python won't judge. 😎
 
 
 **Example: Single Line Comment**
