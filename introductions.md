@@ -54,7 +54,8 @@ A string is just text in Python. It can be a single character, a word, a sentenc
 
 #### Booleans
 
-A boolean data type is either a True or False value. T and F should be always uppercase.
+A **Boolean** is the simplest data type in Python—it can only have **two values: `True` or `False`**. Think of it like an **ON/OFF switch** or answering a **Yes/No** question. One important thing to remember: **`True` and `False` always start with a capital letter**. If you write `true` or `false` in lowercase, Python won't be happy. 😅
+
 
 **Example:**
 
@@ -65,7 +66,8 @@ A boolean data type is either a True or False value. T and F should be always up
 
 #### List
 
-Python list is an ordered collection which allows to store different data type items. A list is similar to an array in JavaScript.
+A **list** is like Python's backpack 🎒—you can throw in almost anything! It stores items in a specific order, and those items can be of **different data types** like numbers, text, or even other lists. Unlike some languages, Python doesn't care if the items are all different. If you've used JavaScript before, a Python list is pretty similar to a JavaScript array. 😎
+
 
 **Example:**
 
@@ -77,8 +79,8 @@ Python list is an ordered collection which allows to store different data type i
 ```
 
 #### Dictionary
+A **dictionary** stores data as **key-value pairs**, kind of like a real dictionary where each **word (key)** has a **meaning (value)**. 🔑 Instead of using numbers to find items like a list, you use unique keys to access their values. It's one of the most useful data types in Python for organizing and looking up information quickly. 🚀
 
-A Python dictionary object is an unordered collection of data in a key value pair format.
 
 **Example:**
 
@@ -95,7 +97,8 @@ A Python dictionary object is an unordered collection of data in a key value pai
 
 #### Tuple
 
-A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
+A **tuple** is a lot like a **list**—it can store multiple items in a specific order, and those items can be of different data types. The big difference? **Once you create a tuple, you can't change it.** 🚫 That means you can't add, remove, or update its items. In Python terms, tuples are **immutable**, making them perfect for storing data that should stay the same.
+
 
 **Example:**
 
@@ -109,9 +112,9 @@ A tuple is an ordered collection of different data types like list but tuples ca
 
 #### Set
 
-A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+A **set** is another way to store multiple items in Python, but it has two special rules: **it's unordered** and **it only keeps unique values**. 🎯 That means duplicate items are automatically removed, and the order of the items isn't guaranteed. You can think of it like a collection where every item gets only one VIP entry. 😎
 
-In later sections, we will go in detail about each and every Python data type.
+Don't worry if all these data types seem a bit confusing right now—we'll explore each one in detail later in the course with plenty of examples and fun coding practice. By the end, you'll know exactly when and why to use each one. 🚀
 
 **Example:**
 
@@ -122,22 +125,35 @@ In later sections, we will go in detail about each and every Python data type.
 
 ### Checking Data types
 
-To check the data type of certain data/variable we use the **type** function.
+Want to know what type of data you're working with? 🤔 Just use Python's built-in **`type()`** function. It tells you whether a value or variable is an **integer, float, string, list, dictionary**, or any other data type. It's one of the handiest functions for beginners and super useful when you're debugging or just curious about your code. 🔍🚀
+
 
 We use ***type(datatype)*** to check its type
 
 ```py
 type(2)
 type(16.5)
-type(false)
 type('BloodMaple')
 ```
 
 ### Python File
+Let's write your very first Python program! 🎉
 
-First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
+First, open your project folder called **`30DaysOfPython`**. If you don't have one yet, create it. Inside that folder, create a new file named **`helloworld.py`**.
 
-The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print()_. The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
+Now it's time to code! 😎
+
+Unlike the **Python Interactive Shell**, where you can simply type a value and see the output, in a Python file you need to use the built-in **`print()`** function to display anything on the screen.
+
+The `print()` function can display one or more values. Its basic syntax looks like this:
+
+```py
+print("argument1")
+print("argument1", "argument2", "argument3")
+```
+
+Go ahead and try a few examples below. Run your program and watch your first Python output appear on the screen. Congrats—you've officially started coding! 🚀
+
 
 **Example:**
 
