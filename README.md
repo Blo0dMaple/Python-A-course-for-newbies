@@ -47,4 +47,4 @@ Now stop scrolling, start coding, and enjoy the journey! 🚀 Read through the c
   [Python with MongoDB](./python_with_mongodb.md)\
   [API](./API.md)\
   [Building API](./building_API.md)\
-  [Conclusions](./conclusions.md)\
+  [Conclusions](./conclusions.md)
