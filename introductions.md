@@ -121,6 +121,14 @@ In later sections, we will go in detail about each and every Python data type.
 To check the data type of certain data/variable we use the **type** function.
 
 We use ***type(datatype)*** to check its type
+
+```py
+type(2)
+type(16.5)
+type(false)
+type('BloodMaple')
+```
+
 ### Python File
 
 First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
