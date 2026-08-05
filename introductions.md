@@ -1,4 +1,5 @@
-Comments play a crucial role in enhancing code readability and allowing developers to leave notes within their code. In Python, any text preceded by a hash (#) symbol is considered a comment and is not executed when the code runs.
+Think of comments as little notes you leave in your code for your future self (because trust me, you'll forget 😭) or for anyone else reading it. They help explain what's going on without affecting the program. In Python, anything written after a **`#`** is a comment, which means Python just skips it while running the code. So go ahead—drop reminders, explain tricky parts, or even roast your own code... Python won't judge. 😎
+
 
 **Example: Single Line Comment**
 
@@ -10,7 +11,7 @@ Comments play a crucial role in enhancing code readability and allowing develope
 
 **Example: Multiline Comment**
 
-Triple quote can be used for multiline comment if it is not assigned to a variable
+Need to write a comment that's longer than one line? No worries! 😎 You can use triple quotes (''' or """) to write multi-line text.
 
 ```shell
 """This is multiline comment
