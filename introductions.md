@@ -136,50 +136,55 @@ type(16.5)
 type('BloodMaple')
 ```
 
+
+
 ### Python File
-Let's write your very first Python program! 🎉
 
-First, open your project folder called **`30DaysOfPython`**. If you don't have one yet, create it. Inside that folder, create a new file named **`helloworld.py`**.
+Time to write your **first real Python program!** 🎉
 
-Now it's time to code! 😎
+Open (or create) a folder. Inside it, create a new file called **`helloworld.py`**.
 
-Unlike the **Python Interactive Shell**, where you can simply type a value and see the output, in a Python file you need to use the built-in **`print()`** function to display anything on the screen.
+Now here's the difference between the **Python Interactive Shell** and a **Python file**:
 
-The `print()` function can display one or more values. Its basic syntax looks like this:
+* In the **Interactive Shell**, Python automatically shows the result when you type an expression.
+* In a **Python file**, you need to use the built-in **`print()`** function to display the output.
+
+Think of `print()` as Python's way of saying, **"Hey! Show this on the screen."** 😎
+
+The basic syntax is:
 
 ```py
 print("argument1")
 print("argument1", "argument2", "argument3")
 ```
 
-Go ahead and try a few examples below. Run your program and watch your first Python output appear on the screen. Congrats—you've officially started coding! 🚀
-
+Now copy the code below into your **`helloworld.py`** file and click **Run**. You'll see Python perform basic math operations and even tell you the data type of different values. Pretty cool for your first program! 🚀
 
 **Example:**
 
-The file name is `helloworld.py`
+**File:** `helloworld.py`
 
 ```py
-# Day 1 - 30DaysOfPython Challenge
+# Day 1 - Python for Newbies 🚀
 
-print(2 + 3)             # addition(+)
-print(3 - 1)             # subtraction(-)
-print(2 * 3)             # multiplication(*)
-print(3 / 2)             # division(/)
-print(3 ** 2)            # exponential(**)
-print(3 % 2)             # modulus(%)
-print(3 // 2)            # Floor division operator(//)
+# Basic Math Operations
+print(2 + 3)      # Addition
+print(3 - 1)      # Subtraction
+print(2 * 3)      # Multiplication
+print(3 / 2)      # Division
+print(3 ** 2)     # Exponent (Power)
+print(3 % 2)      # Modulus (Remainder)
+print(3 // 2)     # Floor Division
 
-# Checking data types
-print(type(10))          # Int
-print(type(3.14))        # Float
-print(type(1 + 3j))      # Complex number
-print(type('Asabeneh'))  # String
-print(type([1, 2, 3]))   # List
-print(type({'name':'Asabeneh'})) # Dictionary
-print(type({9.8, 3.14, 2.7}))    # Set
-print(type((9.8, 3.14, 2.7)))    # Tuple
+# Checking Data Types
+print(type(10))                   # Integer
+print(type(3.14))                 # Float
+print(type(1 + 3j))               # Complex Number
+print(type("Python"))             # String
+print(type([1, 2, 3]))            # List
+print(type({"name": "Harshal"}))  # Dictionary
+print(type({1, 2, 3}))            # Set
+print(type((1, 2, 3)))            # Tuple
 ```
 
-
-
+Run the file, play around with the values, and don't be afraid to break things—that's literally part of learning. Happy coding! 🐍🔥
